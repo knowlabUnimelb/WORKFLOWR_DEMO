@@ -21,3 +21,17 @@ At first I was annoyed, but after a few hours, I realised this would be a really
 The demo is going to use a built in R dataset called ToothGrowth. It contains contains the length of the teeth for 60 guinea pigs given 3 different doses of vitamin C either via orange juice (OC) or directly with ascorbic acid (VC). Not really psychology, but amusing. 
 
 * [Teeth growth](teeth.html)
+
+This is a pretty neat and simple analysis of guinea pig teeth. Let's look at something more substantial.
+
+# COVID-19 UK Survey
+
+* [COVID-19 Survey](https://stephanlewandowsky.github.io/UKsocialLicence/UKcov1.html)
+
+# Basic editing notes
+
+After setting things up using the demo link above, you'll probably make further changes. Once you've finished making changes, run the following commands:
+
+wflow_build()
+wflow_publish(c("analysis/*Rmd", "data/teeth.csv"), message = "Update demo")
+wflow_git_push()

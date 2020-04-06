@@ -1,11 +1,23 @@
 ---
-title: "Home"
+title: "Knowlab Workflowr Demo - Learning a New Thing"
 site: workflowr::wflow_site
 output:
   workflowr::wflow_html:
-    toc: false
+    toc: true
 editor_options:
   chunk_output_type: console
 ---
 
-Welcome to my research website.
+Welcome to my workflowr demo. To make your own demo, please check out this walkthrough tutorial [here](https://jdblischak.github.io/workflowr/articles/wflow-09-workshop.html).
+
+You might also like to look at a brief overview of [Rmarkdown](https://rmarkdown.rstudio.com/articles_intro.html).
+
+# Background
+Over the past few years, I have heard people discuss Rmarkdown and Workflowr along with Tidyverse. Because I use R only rarely, I had not looked into these packages. I recently started a new project with a collaborator who had initiated some analyses in Workflowr. What I found was that although I thought I understood how to use R, things had changed. It was like learning to speak a language and then visiting a new country only to find out they no longer speak the same dialect. 
+
+At first I was annoyed, but after a few hours, I realised this would be a really powerful way of working allowing you to integrate writing, analysis, and document preparation. I was intrigued and thought a good use of this demo would be to prepare some background for the lab. These are my notes as I work through the demo.
+
+# Demo Dataset
+The demo is going to use a built in R dataset called ToothGrowth. It contains contains the length of the teeth for 60 guinea pigs given 3 different doses of vitamin C either via orange juice (OC) or directly with ascorbic acid (VC). Not really psychology, but amusing. 
+
+* [Teeth growth](teeth.html)

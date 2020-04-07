@@ -32,6 +32,6 @@ This is a pretty neat and simple analysis of guinea pig teeth. Let's look at som
 
 After setting things up using the demo link above, you'll probably make further changes. Once you've finished making changes, run the following commands:
 
-wflow_build()
-wflow_publish(c("analysis/*Rmd", "data/teeth.csv"), message = "Update demo")
-wflow_git_push()
+* wflow_build()
+* wflow_publish(c("analysis/*Rmd", "data/teeth.csv"), message = "Update demo") or wflow_publish(republish = TRUE)
+* wflow_git_push()

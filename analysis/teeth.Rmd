@@ -9,16 +9,22 @@ editor_options:
 
 ## Introduction
 
+This is an analysis of teeth.
+
 ```{r import-teeth}
 teeth <- read.csv("data/teeth.csv", row.names = 1)
 head(teeth)
 ```
+
+So now I've loaded the data, let's anlayse it
 
 ```{r boxplots}
 boxplot(len ~ dose, data = teeth)
 boxplot(len ~ supp, data = teeth)
 boxplot(len ~ dose + supp, data = teeth)
 ```
+
+Statistical
 
 ```{r permute}
 # Observed difference in teeth length due to supplement method
